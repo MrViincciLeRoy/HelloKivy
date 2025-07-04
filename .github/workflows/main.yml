@@ -48,4 +48,3 @@ jobs:
         with:
           python-version: 3.7
           architecture: x64
-
