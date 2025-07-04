@@ -15,7 +15,7 @@ jobs:
   # Build job. Builds app for Android with Buildozer
   build-android:
     name: Build for Android
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
 
     steps:
       - name: Checkout
@@ -46,5 +46,5 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: 3.7
+          python-version: '3.11'
           architecture: x64
